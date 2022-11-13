@@ -3,7 +3,7 @@ Implementing a virtual reality skateboard which would be further expanded into t
 ![system archi](https://user-images.githubusercontent.com/85161519/201523031-e436443b-43cd-41de-965d-dfae9e390d18.png)"
 ![dataflow](https://user-images.githubusercontent.com/85161519/201523660-cb69d4af-1ca6-4809-9458-866fb9cc133a.png)
 <br>Use Case Diagram<br>
-# MATERIALS AND METHODS<br>
+# Materials and Method<br>
 In this paper, we designed a prototype of metaverse implementation of a virtual reality skateboard. It is a single player game, where the player will be standing on the skateboard, which has an arduino connected to it capturing all the player movements, and will be wearing a VR headset, which will show the terrain on which the player is playing.<br>
 1) The terrain built using the Unreal Engine gives the virtual reality experience of riding a skateboard. This is created using the assets and props provided by the Engine. By simple drag, drop and resize the virtual world for the player to ride the skateboard is created. The collision option allows the props to become opaque so that the player does not go through it.<br>
 2) The character with the game is created by downloading the required FBX file, which contains the character mesh, and the animation mesh required is also downloaded as the FBX file. These files are loaded to the Engine, the character axes are adjusted to the terrain mesh, speed and movements are adjusted and finally the character can move according to the player's movements.<br>
